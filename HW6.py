@@ -34,6 +34,7 @@ added_list = rando_list[0] + rando_list[1] + rando_list[2]
 print(added_list)
 #10. Create a list with 5 names of other students in this class and print the list.
 name_list = ["Greg", "Kash", 'Brodie', 'Ethan', 'Tristan']
+print(name_list)
 #11. Shuffle the list in #10 and print the list again.
 random.shuffle(name_list)
 print(name_list)
