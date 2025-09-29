@@ -12,11 +12,11 @@ value_dict = {
     "Key3": [3, 30, 300]
 }
 #3. Print the keys of the dictionary from #2.
-print(value_dict.keys)
+print(value_dict.keys())
 #4. Print the values of the dictionary from #2
-print(value_dict.values)
+print(value_dict.values())
 #5. Print one of the three numbers from the list by itself
-print(value_dict["Key1"])
+print(value_dict["Key1"][2])
 #6. Using the update function, add a fourth key to the dictionary and give it a value.
 value_dict.update({"Key4": [4, 40, 400]})
 #7. Print the entire dictionary from #2 with the updated key and value.
