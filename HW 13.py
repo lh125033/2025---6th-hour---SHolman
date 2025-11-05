@@ -11,29 +11,15 @@
 
 #Create a while loop that follows the rules of the game.
 
-#Something similar to this
-'''i3 = 1
-while i3 <= 30:
-    if i3 % 3 == 0:
-        i3 += 1
-        continue
-    print(i3)
-    i3 += 1'''
-
-
 i = 1
+
 while i <= 100:
-    print(i)
-    i += 1
-    if i % 3 == 0:
+    if i % 3 == 0 and i % 5 == 0:
+        print("Fizzbuzz")
+    elif i % 3 == 0:
         print("Fizz")
-        i += 1
-        continue
     elif i % 5 == 0:
         print("Buzz")
-        i += 1
-        continue
-    elif i % 3 == 0 and i % 5 == 0:
-        print("FizzBuzz")
-        i += 1
-        continue
+    else:
+        print(i)
+    i += 1
