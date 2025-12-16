@@ -1,4 +1,4 @@
-# Name:
+# Name: Shane Holman
 # Class: 6th Hour
 # Assignment: Semester Project 1
 
@@ -121,7 +121,7 @@ tAC = enemyDict["Troll"]["AC"]
 tDMG = enemyDict["Troll"]["Damage"]
 tMOD = partyDict["Gale"]["AtkMod"]
 
-while gHP >= 0 or tHP >= 0:
+while gHP > 0 or tHP > 0:
 
     gNat = random.randint(1, 20)
     gMODROLL = gNat + gMOD
