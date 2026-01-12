@@ -17,7 +17,7 @@ e = d / c
 print(e)
 
 #5. Round the result from #3 up or down, and then determine if it is even or odd.
-round(e)
+e = round(e)
 if e % 2 == 0:
     print("Even")
 else:
@@ -38,10 +38,10 @@ randlist.sort()
 print(randlist[3])
 
 #10. Create a while loop that starts at 1, prints i and then adds i to itself until it is greater than 100.
-i = 0
+i = 1
 
-while i < 100:
-    i += 1
+while i <= 100:
+    i += i
     print(i)
 
 #11. Create a list containing the names of five other students in the classroom.
