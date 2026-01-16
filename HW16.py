@@ -47,3 +47,4 @@ def multi():
 #8. Print the new value of x.
 multi()
 print(x)
+
