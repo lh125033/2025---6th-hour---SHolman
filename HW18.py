@@ -34,12 +34,16 @@ beanBag = ["Red", "Green", "Blue", "Yellow", "Purple"]
 #7. Create a def function that pulls a random bean out of the beanBag list, prints which bean you pulled, and then removes it from the list.
 def PullColor():
     global beanBag
-    print(beanBag)
-    pull = random.choice(beanBag)
-    beanBag.remove(pull)
-    print(beanBag)
+    if beanBag == []:
+        print("No beans")
+    else:
+        print(beanBag)
+        pull = random.choice(beanBag)
+        print(pull)
+        beanBag.remove(pull)
+        print(beanBag)
 
-    RepeatPull()
+        RepeatPull()
 
 
 #8. Create a def function that asks if you want to pull another bean out of the bag and, if yes, repeats the #3 def function
