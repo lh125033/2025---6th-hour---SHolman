@@ -11,18 +11,14 @@ class Student():
         self.color = color
 
     def student_grade(self):
-        self.grade = self.grade + 1
         if self.grade == 13:
-            print("Graduated")
+            self.grade = "Graduated"
         else:
-            print(self.grade)
+            self.grade += 1
+
     def favorite_color(self):
         self.color = input("Enter favorite color: ")
-        print(self.color)
 #2. Make a def function within the class that adds 1 to the grade attribute to any object called to it.
 #If they are 12th grade, have the code change their grade to "graduated" instead.
 
 #3. Make a def function within the class that offers the user to input/change their favorite color.
-Shane = Student("Shane", 12, "Red")
-Shane.student_grade()
-Shane.favorite_color()
